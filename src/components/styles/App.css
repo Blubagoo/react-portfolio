@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+p {
+	margin: 0;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+}
+.top,
+.mid,
+.bot {
+	flex: 1;
+}
+.sub-text {
+	font-size: 9px;
+	font-style: italic;
+}
+.sm-text {
+	font-size: 12px;
+}
+.md-text {
+	font-size: 16px;
+	font-weight: 600;
+}
+.lg-text {
+	margin: 10px 0;
+	font-weight: 600;
+	font-size: 18px;
+}
+.well {
+	background-color: rgba(255,226,125, .7);
+}
+
+@media only screen and (min-width: 640px) {
+	.sub-text {
+		font-size: 14px;
+	}
+	.sm-text {
+		font-size: 18px;
+	}
+	.md-text {
+		font-size: 24px;
+	}
+	.lg-text {
+		font-size: 28px;
+	}
+	body {
+		font-size: 18px
+	}
+}
+
+
+
+
+
+
+
+

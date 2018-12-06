@@ -1,0 +1,22 @@
+.header {
+	width: 100%;
+	background-image: url('landing-bg.png');
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 20px 0;
+}
+.banner,
+.sub-banner {
+	margin: 0;
+	margin-right: 25px;
+}
+.sub-banner {
+	font-size: 1.1em;
+}
+.banner {
+	font-size: 30px;
+}

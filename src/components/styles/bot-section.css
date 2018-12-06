@@ -1,0 +1,19 @@
+.bot {
+	margin: 0;
+	background-color: rgb(255,250,235);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+
+}
+.bot-header {
+	background-image: url('contact-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 35px;
+}

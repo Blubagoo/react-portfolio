@@ -17,11 +17,6 @@ export default function (props) {
 				</div>
 				<div className='project'>
 					<div className='front'>
-						<a href='https://trivia-challenger.herokuapp.com' target='_blank'><img src={trivia} className='icon' alt='Trivia Challenger' /></a>
-					</div>
-				</div>
-				<div className='project'>
-					<div className='front'>
 						<a href='https://blubagoo.github.io/singngo/' target='_blank'><img src={sing} className='icon' alt='Sing n Go' /></a>
 					</div>
 				</div>
